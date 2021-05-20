@@ -1,0 +1,47 @@
+body{
+background-image:url(https://s32152.pcdn.co/wp-content/uploads/2015/10/UNI9940.jpg);
+background-attachment: fixed;
+background-position:center;
+background-size:100%;
+background-repeat:no repeat;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin:-10px;
+}
+
+li a{
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:25px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  
+}
+
+.active {
+ float:left;
+  background-color:#800000
+}
+p{
+text-align:center;
+font-size:80px;
+margin-left:10px;
+margin-top:280px;
+}
+form{
+text-align:center;
+}
